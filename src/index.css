@@ -2,85 +2,91 @@
 
 /* ============================================================
    Vahani Alumni Portal v3 — Design System
-   Direction: "Warm Editorial Modern" → palette: Indigo & Gold
+   Direction: "Warm Editorial Modern" → palette: Heritage Earth
+     • action   = bottle green   #2f6545
+     • brand    = terracotta     #a34c2b
+     • accent   = honey/ochre     #c99a2a
+     • deep     = pine (near-black green)
+     • support  = olive/sage
+     • canvas   = warm cream · warm charcoal text
    Type: Gloock (display) · Plus Jakarta Sans (UI) · Cormorant (quotes)
    ============================================================ */
 
 @theme {
-  /* ── Violet — brand / links / highlights ── */
-  --color-brand-50: #f5f3ff;
-  --color-brand-100: #ede9fe;
-  --color-brand-200: #ddd6fe;
-  --color-brand-300: #c4b5fd;
-  --color-brand-400: #a78bfa;
-  --color-brand-500: #8b5cf6;
-  --color-brand-600: #7c3aed;
-  --color-brand-700: #6d28d9;
-  --color-brand-800: #5b21b6;
-  --color-brand-900: #4c1d95;
-  --color-brand-950: #2e1065;
+  /* ── Terracotta — brand / links / highlights ── */
+  --color-brand-50: #fbf3ef;
+  --color-brand-100: #f6e3da;
+  --color-brand-200: #eec6b6;
+  --color-brand-300: #e0a184;
+  --color-brand-400: #cf7a56;
+  --color-brand-500: #b95f38;
+  --color-brand-600: #a34c2b;
+  --color-brand-700: #863d24;
+  --color-brand-800: #6d3220;
+  --color-brand-900: #5a2b1d;
+  --color-brand-950: #331610;
 
-  /* ── Clay — primary action (indigo) ── */
-  --color-clay-50: #eef1ff;
-  --color-clay-100: #e0e5ff;
-  --color-clay-200: #c7cffe;
-  --color-clay-300: #a5b0fc;
-  --color-clay-400: #8189f8;
-  --color-clay-500: #6366f1;
-  --color-clay-600: #4f46e5;
-  --color-clay-700: #4338ca;
-  --color-clay-800: #3730a3;
-  --color-clay-900: #312e81;
+  /* ── Clay — primary action (bottle green) ── */
+  --color-clay-50: #f2f7f3;
+  --color-clay-100: #e0ede3;
+  --color-clay-200: #c2dbc8;
+  --color-clay-300: #97c0a2;
+  --color-clay-400: #679d77;
+  --color-clay-500: #43805a;
+  --color-clay-600: #2f6545;
+  --color-clay-700: #275039;
+  --color-clay-800: #21402f;
+  --color-clay-900: #1c3528;
 
-  /* ── Gold — warm accent (amber) ── */
-  --color-gold-50: #fff8eb;
-  --color-gold-100: #ffefc9;
-  --color-gold-200: #ffdb8a;
-  --color-gold-300: #ffc94d;
-  --color-gold-400: #fbb024;
-  --color-gold-500: #e08c0b;
-  --color-gold-600: #b96a06;
-  --color-gold-700: #8f4f08;
+  /* ── Gold — warm accent (honey / ochre) ── */
+  --color-gold-50: #fbf6e8;
+  --color-gold-100: #f5e9c6;
+  --color-gold-200: #ecd488;
+  --color-gold-300: #ddb84d;
+  --color-gold-400: #c99a2a;
+  --color-gold-500: #ab7d1c;
+  --color-gold-600: #8a6218;
+  --color-gold-700: #6d4d16;
 
-  /* ── Navy — deep sections (midnight indigo) ── */
-  --color-navy-50: #eef1fa;
-  --color-navy-100: #dde3f5;
-  --color-navy-600: #23276b;
-  --color-navy-700: #1b1e57;
-  --color-navy-800: #12143f;
-  --color-navy-900: #0a0b28;
-  --color-navy-950: #05061a;
+  /* ── Navy — deep sections (pine / near-black green) ── */
+  --color-navy-50: #eef2ef;
+  --color-navy-100: #dbe4de;
+  --color-navy-600: #1f3d30;
+  --color-navy-700: #183227;
+  --color-navy-800: #12261e;
+  --color-navy-900: #0a1a14;
+  --color-navy-950: #050f0b;
 
-  /* ── Forest — support accent (teal) ── */
-  --color-accent-50: #effcfa;
-  --color-accent-100: #d5f7f0;
-  --color-accent-200: #a9efe3;
-  --color-accent-300: #74e0d1;
-  --color-accent-400: #3fc7b6;
-  --color-accent-500: #14b8a6;
-  --color-accent-600: #0d9488;
-  --color-accent-700: #0f766e;
-  --color-accent-800: #115e59;
-  --color-accent-900: #134e4a;
+  /* ── Forest — support accent (olive / sage) ── */
+  --color-accent-50: #f6f7ee;
+  --color-accent-100: #e9ecd6;
+  --color-accent-200: #d3daa9;
+  --color-accent-300: #b8c279;
+  --color-accent-400: #9aa855;
+  --color-accent-500: #7d8c3f;
+  --color-accent-600: #626e31;
+  --color-accent-700: #4d5729;
+  --color-accent-800: #404824;
+  --color-accent-900: #373d21;
 
-  /* ── Ink — cool slate text scale ── */
-  --color-ink-300: #b4b6c2;
-  --color-ink-400: #8d90a0;
-  --color-ink-500: #626678;
-  --color-ink-600: #484c5c;
-  --color-ink-700: #333744;
-  --color-ink-800: #24272f;
-  --color-ink-900: #16181f;
+  /* ── Ink — warm charcoal text scale ── */
+  --color-ink-300: #b3b0aa;
+  --color-ink-400: #98958f;
+  --color-ink-500: #666460;
+  --color-ink-600: #4d4a47;
+  --color-ink-700: #333230;
+  --color-ink-800: #262523;
+  --color-ink-900: #171614;
 
-  /* ── Surfaces (clean cool neutrals) ── */
-  --color-cream: #f7f7fb;
-  --color-cream-deep: #ececf3;
-  --color-paper: #f9f9fb;
-  --color-taupe: #c4c4d0;
+  /* ── Surfaces (warm cream) ── */
+  --color-cream: #f8f5ee;
+  --color-cream-deep: #efe9dd;
+  --color-paper: #f9f7f2;
+  --color-taupe: #c9bfa9;
   --color-surface: #ffffff;
-  --color-surface-raised: #fdfdff;
-  --color-line: #e7e7ef;
-  --color-line-strong: #d6d6e2;
+  --color-surface-raised: #fffdf9;
+  --color-line: #e7dfd0;
+  --color-line-strong: #d8ccb6;
 
   /* ── Type ── */
   --font-display: 'Gloock', 'Cormorant Garamond', Georgia, serif;
@@ -94,14 +100,14 @@
   --text-headline--line-height: 1.1;
   --text-headline--letter-spacing: -0.015em;
 
-  /* ── Elevation ── */
-  --shadow-2xs: 0 1px 2px rgba(24, 24, 48, 0.05);
-  --shadow-xs: 0 2px 6px -1px rgba(24, 24, 48, 0.09);
-  --shadow-sm: 0 4px 12px -4px rgba(24, 24, 48, 0.13);
-  --shadow-md: 0 14px 32px -14px rgba(24, 24, 48, 0.22);
-  --shadow-lg: 0 26px 52px -22px rgba(24, 24, 48, 0.28);
-  --shadow-xl: 0 44px 88px -36px rgba(24, 24, 48, 0.36);
-  --shadow-glow: 0 14px 34px -12px rgba(99, 102, 241, 0.5);
+  /* ── Elevation (warm-tinted) ── */
+  --shadow-2xs: 0 1px 2px rgba(48, 38, 28, 0.05);
+  --shadow-xs: 0 2px 6px -1px rgba(48, 38, 28, 0.09);
+  --shadow-sm: 0 4px 12px -4px rgba(48, 38, 28, 0.13);
+  --shadow-md: 0 14px 32px -14px rgba(48, 38, 28, 0.22);
+  --shadow-lg: 0 26px 52px -22px rgba(48, 38, 28, 0.28);
+  --shadow-xl: 0 44px 88px -36px rgba(48, 38, 28, 0.36);
+  --shadow-glow: 0 14px 34px -12px rgba(47, 101, 69, 0.45);
 
   --radius-4xl: 2rem;
   --radius-5xl: 2.75rem;
@@ -131,11 +137,11 @@ body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  background-color: #f7f7fb;
+  background-color: #f8f5ee;
   background-image:
-    radial-gradient(52rem 36rem at 88% -12%, rgba(99, 102, 241, 0.12), transparent 58%),
-    radial-gradient(46rem 32rem at -12% 2%, rgba(139, 92, 246, 0.12), transparent 55%),
-    radial-gradient(40rem 40rem at 50% 120%, rgba(20, 184, 166, 0.08), transparent 60%);
+    radial-gradient(52rem 36rem at 88% -12%, rgba(47, 101, 69, 0.1), transparent 58%),
+    radial-gradient(46rem 32rem at -12% 2%, rgba(201, 154, 42, 0.13), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 120%, rgba(185, 95, 56, 0.08), transparent 60%);
   color: var(--color-ink-700);
   font-family: var(--font-sans);
   font-size: 0.9375rem;
@@ -182,7 +188,7 @@ a:hover {
 
 /* Accessible focus ring */
 :where(a, button, input, select, textarea, [tabindex]):focus-visible {
-  outline: 2px solid var(--color-clay-500);
+  outline: 2px solid var(--color-clay-600);
   outline-offset: 2px;
   border-radius: 6px;
 }
@@ -216,13 +222,13 @@ iframe {
 }
 
 ::selection {
-  background: rgba(99, 102, 241, 0.22);
-  color: var(--color-navy-900);
+  background: rgba(47, 101, 69, 0.2);
+  color: var(--color-clay-900);
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(70, 74, 110, 0.4) transparent;
+  scrollbar-color: rgba(62, 52, 40, 0.4) transparent;
 }
 ::-webkit-scrollbar {
   width: 9px;
@@ -232,13 +238,13 @@ iframe {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(70, 74, 110, 0.32);
+  background: rgba(62, 52, 40, 0.32);
   border-radius: 999px;
   border: 2px solid transparent;
   background-clip: content-box;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(70, 74, 110, 0.5);
+  background: rgba(62, 52, 40, 0.5);
   background-clip: content-box;
 }
 
@@ -270,15 +276,15 @@ iframe {
     height: 2px;
     margin-right: 0.6rem;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--color-clay-500), var(--color-gold-200));
+    background: linear-gradient(90deg, var(--color-clay-600), var(--color-gold-300));
   }
 
   .gradient-text {
-    background: linear-gradient(110deg, #4338ca 0%, #7c3aed 46%, #fbb024 100%);
+    background: linear-gradient(110deg, #275039 0%, #b95f38 52%, #c99a2a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: #6d28d9;
+    color: #a34c2b;
   }
 
   @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -291,7 +297,7 @@ iframe {
     width: 3.25rem;
     height: 3px;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--color-clay-500), var(--color-gold-200));
+    background: linear-gradient(90deg, var(--color-clay-600), var(--color-gold-300));
   }
 
   .text-quote {
@@ -313,7 +319,7 @@ iframe {
   }
 
   .glass-card {
-    background: linear-gradient(150deg, rgba(255, 255, 255, 0.92), rgba(253, 253, 255, 0.72));
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.92), rgba(255, 253, 249, 0.72));
     backdrop-filter: blur(16px) saturate(140%);
     -webkit-backdrop-filter: blur(16px) saturate(140%);
   }
@@ -360,7 +366,7 @@ iframe {
 
   .btn-primary {
     color: #fff !important;
-    background-image: linear-gradient(135deg, #6366f1, #4338ca 55%, #4f46e5);
+    background-image: linear-gradient(135deg, #2f6545, #21402f 55%, #275039);
     box-shadow: var(--shadow-md);
   }
 
@@ -377,7 +383,7 @@ iframe {
   }
 
   .btn-gold {
-    color: var(--color-navy-900) !important;
+    color: #33160f !important;
     background-image: linear-gradient(135deg, var(--color-gold-300), var(--color-gold-400));
     box-shadow: var(--shadow-md);
   }
@@ -385,7 +391,7 @@ iframe {
   @media (hover: hover) {
     .btn-gold:hover {
       transform: translateY(-2px);
-      color: var(--color-navy-900) !important;
+      color: #33160f !important;
       box-shadow: var(--shadow-lg);
     }
   }
@@ -501,7 +507,7 @@ iframe {
     margin: 0;
     border: 1px solid var(--color-line-strong);
     border-radius: 999px;
-    background: #d8d8e4;
+    background: #d8d0c0;
     cursor: pointer;
     transition: background 0.25s var(--ease-out-soft), border-color 0.25s var(--ease-out-soft);
     -webkit-tap-highlight-color: transparent;
@@ -524,7 +530,7 @@ iframe {
     height: 1.375rem;
     border-radius: 999px;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(24, 24, 48, 0.3);
+    box-shadow: 0 1px 3px rgba(46, 38, 28, 0.3);
     transform: translateX(0);
     transition: transform 0.25s var(--ease-out-soft);
     pointer-events: none;
@@ -560,9 +566,9 @@ iframe {
   }
 
   .input-field:focus {
-    border-color: var(--color-clay-400);
+    border-color: var(--color-clay-500);
     background: #fff;
-    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.14);
+    box-shadow: 0 0 0 4px rgba(47, 101, 69, 0.14);
   }
 
   .input-field::placeholder {
@@ -577,7 +583,7 @@ iframe {
   }
 
   select.input-field {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23626678'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23666460'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.9rem center;
     background-size: 1rem;
@@ -694,18 +700,18 @@ iframe {
 /* ── Decorative utilities ── */
 .bg-grid {
   background-image:
-    linear-gradient(to right, rgba(70, 74, 110, 0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(70, 74, 110, 0.06) 1px, transparent 1px);
+    linear-gradient(to right, rgba(62, 52, 40, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(62, 52, 40, 0.06) 1px, transparent 1px);
   background-size: 44px 44px;
 }
 
 .bg-dots {
-  background-image: radial-gradient(rgba(70, 74, 110, 0.16) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(62, 52, 40, 0.15) 1px, transparent 1px);
   background-size: 22px 22px;
 }
 
 .text-shadow-soft {
-  text-shadow: 0 2px 18px rgba(15, 16, 30, 0.4);
+  text-shadow: 0 2px 18px rgba(23, 22, 20, 0.4);
 }
 
 .hide-scrollbar {
