@@ -13,7 +13,7 @@ export default function BirthdayWall() {
         badge="Special Tribute"
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-8">
+      <div className="reveal grid grid-cols-1 lg:grid-cols-5 gap-6 mb-8">
         <Card className="lg:col-span-2 border-rose-200">
           <img
             src={assetUrl('photos/Preeti_maam.jpeg')}
@@ -59,7 +59,7 @@ export default function BirthdayWall() {
         </Card>
       </div>
 
-      <Card>
+      <Card className="reveal">
         <h3 className="font-display text-2xl font-semibold text-ink-900 mb-4 text-center">Share Your Wishes</h3>
         <ResponsiveEmbed src="https://padlet.com/embed/wqnnd6x5sfrk2rhy" title="Birthday wishes padlet" minHeight={550} />
       </Card>

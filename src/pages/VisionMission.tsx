@@ -13,7 +13,7 @@ export default function VisionMission() {
         badge="About Us"
       />
 
-      <div className="grid md:grid-cols-2 gap-5 mb-8">
+      <div className="reveal grid md:grid-cols-2 gap-5 mb-10">
         <Card className="relative overflow-hidden">
           <span className="w-12 h-12 rounded-2xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4">
             <Icon name="compass" size={22} />
@@ -36,7 +36,7 @@ export default function VisionMission() {
         </Card>
       </div>
 
-      <Card className="mb-8">
+      <Card className="reveal mb-10">
         <span className="eyebrow block mb-2">Leadership</span>
         <h2 className="font-display text-3xl font-semibold text-ink-900 mb-6">Message from the President</h2>
         <div className="flex flex-col lg:flex-row gap-8">
@@ -68,7 +68,7 @@ export default function VisionMission() {
         </div>
       </Card>
 
-      <section className="mb-8">
+      <section className="reveal mb-10">
         <span className="eyebrow block mb-2">Office Bearers</span>
         <h2 className="font-display text-3xl font-semibold text-ink-900 mb-5">The Committee</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -87,7 +87,7 @@ export default function VisionMission() {
         </div>
       </section>
 
-      <Card padding="sm" className="overflow-hidden">
+      <Card padding="sm" className="reveal overflow-hidden">
         <img
           src={assetUrl('alumni_team.jpg')}
           alt="Vahani Alumni Association Team"

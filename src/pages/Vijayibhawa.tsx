@@ -79,7 +79,7 @@ export default function Vijayibhawa() {
         badge="Mentorship"
       />
 
-      <Card className="mb-8 border-accent-200 bg-accent-50/60">
+      <Card className="reveal mb-8 border-accent-200 bg-accent-50/60">
         <p className="text-ink-500 leading-relaxed">
           <strong className="text-ink-900">Vijayibhawa</strong> connects mentees with Vahani alumni mentors. Choose a
           mentor, share your goals, and request a session. The Alumni Committee reviews every request.

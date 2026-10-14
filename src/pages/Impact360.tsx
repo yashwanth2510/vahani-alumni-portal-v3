@@ -19,7 +19,7 @@ export default function Impact360() {
         badge="Social Impact"
       />
 
-      <Card className="mb-5">
+      <Card className="reveal mb-5">
         <p className="text-ink-500 leading-relaxed mb-4">
           <strong className="text-ink-900">Impact360</strong> is an initiative by the{' '}
           <strong className="text-brand-600">Vahani Alumni Association</strong> to empower underserved students and
@@ -32,7 +32,7 @@ export default function Impact360() {
         </p>
       </Card>
 
-      <Card className="mb-8 bg-accent-50/60 border-accent-200">
+      <Card className="reveal mb-8 bg-accent-50/60 border-accent-200">
         <h3 className="font-display text-2xl font-semibold text-ink-900 mb-4">Our Journey So Far</h3>
         <ul className="space-y-3 text-sm text-ink-600">
           {journey.map((j) => (

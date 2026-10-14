@@ -30,7 +30,7 @@ export default function Events() {
         badge="Community"
       />
 
-      <Card className="mb-8 border-brand-200 bg-brand-50/60">
+      <Card className="reveal mb-10 border-brand-200 bg-brand-50/60">
         <h2 className="font-display text-2xl font-semibold text-ink-900 mb-4 flex items-center gap-2.5">
           <span className="w-2.5 h-2.5 rounded-full bg-brand-500 animate-pulse" />
           Upcoming / Ongoing
@@ -45,7 +45,7 @@ export default function Events() {
       </Card>
 
       <h2 className="font-display text-3xl font-semibold text-ink-900 mb-6">Past Events</h2>
-      <ol className="relative border-l border-line ml-1.5 space-y-5">
+      <ol className="reveal relative border-l border-line ml-1.5 space-y-5">
         {pastEvents.map((e) => (
           <li key={e.title} className="pl-6 relative">
             <span className="absolute -left-[7px] top-5 w-3.5 h-3.5 rounded-full border-2 border-brand-500 bg-cream" />

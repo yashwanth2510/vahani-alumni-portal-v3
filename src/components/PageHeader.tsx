@@ -9,22 +9,16 @@ interface PageHeaderProps {
 
 export default function PageHeader({ title, subtitle, badge, children }: PageHeaderProps) {
   return (
-    <header className="mb-8 sm:mb-10 max-w-full">
-      {badge && (
-        <span className="eyebrow mb-3 block">
-          <span className="inline-flex items-center gap-2">
-            <span className="h-px w-6 bg-clay-400" aria-hidden="true" />
-            {badge}
-          </span>
-        </span>
-      )}
-      <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-ink-900 break-words">
-        {title}
-      </h1>
+    <header className="relative mb-10 sm:mb-14 max-w-full">
+      <div
+        className="pointer-events-none absolute -top-16 -left-24 -z-10 h-56 w-56 rounded-full bg-brand-500/10 blur-3xl"
+        aria-hidden="true"
+      />
+      {badge && <span className="eyebrow mb-4">{badge}</span>}
+      <h1 className="font-display text-headline text-ink-900 break-words max-w-4xl">{title}</h1>
+      <div className="rule-accent mt-5" />
       {subtitle && (
-        <p className="mt-3 text-ink-500 text-base sm:text-lg max-w-3xl leading-relaxed break-words">
-          {subtitle}
-        </p>
+        <p className="mt-5 text-ink-500 text-base sm:text-lg max-w-3xl leading-relaxed break-words">{subtitle}</p>
       )}
       {children}
     </header>
