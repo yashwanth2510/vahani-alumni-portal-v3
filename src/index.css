@@ -2,92 +2,85 @@
 
 /* ============================================================
    Vahani Alumni Portal v3 — Design System
-   Direction: "Warm Editorial Modern"
-   Brand palette anchored to Vahani Scholarship Trust:
-     • action   = clay brown    #5e362c
-     • brand    = coral         #ff6f52
-     • accent   = gold          #fcd181
-     • deep     = navy          #0b0d47
-     • support  = forest green  #6f9c76
-     • text     = warm charcoal #333230
+   Direction: "Warm Editorial Modern" → palette: Indigo & Gold
    Type: Gloock (display) · Plus Jakarta Sans (UI) · Cormorant (quotes)
    ============================================================ */
 
 @theme {
-  /* ── Coral — brand / links / illustration ── */
-  --color-brand-50: #fff5f1;
-  --color-brand-100: #ffe6de;
-  --color-brand-200: #ffcdbf;
-  --color-brand-300: #ffa88f;
-  --color-brand-400: #ff8a6b;
-  --color-brand-500: #ff6f52;
-  --color-brand-600: #f25536;
-  --color-brand-700: #d63f22;
-  --color-brand-800: #a92f18;
-  --color-brand-900: #7d2412;
-  --color-brand-950: #4a1509;
+  /* ── Violet — brand / links / highlights ── */
+  --color-brand-50: #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-200: #ddd6fe;
+  --color-brand-300: #c4b5fd;
+  --color-brand-400: #a78bfa;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-brand-700: #6d28d9;
+  --color-brand-800: #5b21b6;
+  --color-brand-900: #4c1d95;
+  --color-brand-950: #2e1065;
 
-  /* ── Clay — primary action ── */
-  --color-clay-50: #f8f1ee;
-  --color-clay-100: #efe2dc;
-  --color-clay-200: #dec5bb;
-  --color-clay-300: #c5a094;
-  --color-clay-400: #a67865;
-  --color-clay-500: #87513f;
-  --color-clay-600: #5e362c;
-  --color-clay-700: #4a2a22;
-  --color-clay-800: #40251e;
-  --color-clay-900: #2f1b16;
+  /* ── Clay — primary action (indigo) ── */
+  --color-clay-50: #eef1ff;
+  --color-clay-100: #e0e5ff;
+  --color-clay-200: #c7cffe;
+  --color-clay-300: #a5b0fc;
+  --color-clay-400: #8189f8;
+  --color-clay-500: #6366f1;
+  --color-clay-600: #4f46e5;
+  --color-clay-700: #4338ca;
+  --color-clay-800: #3730a3;
+  --color-clay-900: #312e81;
 
-  /* ── Gold — warm accent ── */
-  --color-gold-50: #fef8ec;
-  --color-gold-100: #fdefcf;
-  --color-gold-200: #fcd181;
-  --color-gold-300: #f7bd55;
-  --color-gold-400: #eba62f;
-  --color-gold-500: #c9821a;
-  --color-gold-600: #a5650f;
-  --color-gold-700: #7d4c0c;
+  /* ── Gold — warm accent (amber) ── */
+  --color-gold-50: #fff8eb;
+  --color-gold-100: #ffefc9;
+  --color-gold-200: #ffdb8a;
+  --color-gold-300: #ffc94d;
+  --color-gold-400: #fbb024;
+  --color-gold-500: #e08c0b;
+  --color-gold-600: #b96a06;
+  --color-gold-700: #8f4f08;
 
-  /* ── Navy — deep sections ── */
-  --color-navy-50: #eef0fa;
-  --color-navy-100: #dcdff2;
-  --color-navy-600: #1c2070;
-  --color-navy-700: #14175c;
-  --color-navy-800: #0b0d47;
-  --color-navy-900: #070831;
-  --color-navy-950: #04051f;
+  /* ── Navy — deep sections (midnight indigo) ── */
+  --color-navy-50: #eef1fa;
+  --color-navy-100: #dde3f5;
+  --color-navy-600: #23276b;
+  --color-navy-700: #1b1e57;
+  --color-navy-800: #12143f;
+  --color-navy-900: #0a0b28;
+  --color-navy-950: #05061a;
 
-  /* ── Forest — earthy green accent ── */
-  --color-accent-50: #f1f6f1;
-  --color-accent-100: #dfeae0;
-  --color-accent-200: #c0d6c3;
-  --color-accent-300: #97bb9c;
-  --color-accent-400: #7faa85;
-  --color-accent-500: #6f9c76;
-  --color-accent-600: #587f5e;
-  --color-accent-700: #46654b;
-  --color-accent-800: #3a533e;
-  --color-accent-900: #314535;
+  /* ── Forest — support accent (teal) ── */
+  --color-accent-50: #effcfa;
+  --color-accent-100: #d5f7f0;
+  --color-accent-200: #a9efe3;
+  --color-accent-300: #74e0d1;
+  --color-accent-400: #3fc7b6;
+  --color-accent-500: #14b8a6;
+  --color-accent-600: #0d9488;
+  --color-accent-700: #0f766e;
+  --color-accent-800: #115e59;
+  --color-accent-900: #134e4a;
 
-  /* ── Ink — warm charcoal text scale ── */
-  --color-ink-300: #b3b0aa;
-  --color-ink-400: #98958f;
-  --color-ink-500: #666460;
-  --color-ink-600: #4d4a47;
-  --color-ink-700: #333230;
-  --color-ink-800: #262523;
-  --color-ink-900: #171614;
+  /* ── Ink — cool slate text scale ── */
+  --color-ink-300: #b4b6c2;
+  --color-ink-400: #8d90a0;
+  --color-ink-500: #626678;
+  --color-ink-600: #484c5c;
+  --color-ink-700: #333744;
+  --color-ink-800: #24272f;
+  --color-ink-900: #16181f;
 
-  /* ── Surfaces ── */
-  --color-cream: #faf8f3;
-  --color-cream-deep: #f2ece1;
-  --color-paper: #f9f9f8;
-  --color-taupe: #cbc7bf;
+  /* ── Surfaces (clean cool neutrals) ── */
+  --color-cream: #f7f7fb;
+  --color-cream-deep: #ececf3;
+  --color-paper: #f9f9fb;
+  --color-taupe: #c4c4d0;
   --color-surface: #ffffff;
-  --color-surface-raised: #fffdfa;
-  --color-line: #ece4d8;
-  --color-line-strong: #ddd0bd;
+  --color-surface-raised: #fdfdff;
+  --color-line: #e7e7ef;
+  --color-line-strong: #d6d6e2;
 
   /* ── Type ── */
   --font-display: 'Gloock', 'Cormorant Garamond', Georgia, serif;
@@ -101,14 +94,14 @@
   --text-headline--line-height: 1.1;
   --text-headline--letter-spacing: -0.015em;
 
-  /* ── Elevation (warm-tinted) ── */
-  --shadow-2xs: 0 1px 2px rgba(64, 37, 30, 0.05);
-  --shadow-xs: 0 2px 6px -1px rgba(64, 37, 30, 0.09);
-  --shadow-sm: 0 4px 12px -4px rgba(64, 37, 30, 0.13);
-  --shadow-md: 0 14px 32px -14px rgba(64, 37, 30, 0.24);
-  --shadow-lg: 0 26px 52px -22px rgba(64, 37, 30, 0.3);
-  --shadow-xl: 0 44px 88px -36px rgba(64, 37, 30, 0.38);
-  --shadow-glow: 0 14px 34px -12px rgba(255, 111, 82, 0.5);
+  /* ── Elevation ── */
+  --shadow-2xs: 0 1px 2px rgba(24, 24, 48, 0.05);
+  --shadow-xs: 0 2px 6px -1px rgba(24, 24, 48, 0.09);
+  --shadow-sm: 0 4px 12px -4px rgba(24, 24, 48, 0.13);
+  --shadow-md: 0 14px 32px -14px rgba(24, 24, 48, 0.22);
+  --shadow-lg: 0 26px 52px -22px rgba(24, 24, 48, 0.28);
+  --shadow-xl: 0 44px 88px -36px rgba(24, 24, 48, 0.36);
+  --shadow-glow: 0 14px 34px -12px rgba(99, 102, 241, 0.5);
 
   --radius-4xl: 2rem;
   --radius-5xl: 2.75rem;
@@ -138,11 +131,11 @@ body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  background-color: #faf8f3;
+  background-color: #f7f7fb;
   background-image:
-    radial-gradient(52rem 36rem at 88% -12%, rgba(255, 111, 82, 0.1), transparent 58%),
-    radial-gradient(46rem 32rem at -12% 2%, rgba(252, 209, 129, 0.14), transparent 55%),
-    radial-gradient(40rem 40rem at 50% 120%, rgba(111, 156, 118, 0.08), transparent 60%);
+    radial-gradient(52rem 36rem at 88% -12%, rgba(99, 102, 241, 0.12), transparent 58%),
+    radial-gradient(46rem 32rem at -12% 2%, rgba(139, 92, 246, 0.12), transparent 55%),
+    radial-gradient(40rem 40rem at 50% 120%, rgba(20, 184, 166, 0.08), transparent 60%);
   color: var(--color-ink-700);
   font-family: var(--font-sans);
   font-size: 0.9375rem;
@@ -223,13 +216,13 @@ iframe {
 }
 
 ::selection {
-  background: rgba(255, 111, 82, 0.22);
-  color: var(--color-clay-900);
+  background: rgba(99, 102, 241, 0.22);
+  color: var(--color-navy-900);
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(94, 54, 44, 0.4) transparent;
+  scrollbar-color: rgba(70, 74, 110, 0.4) transparent;
 }
 ::-webkit-scrollbar {
   width: 9px;
@@ -239,13 +232,13 @@ iframe {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(94, 54, 44, 0.3);
+  background: rgba(70, 74, 110, 0.32);
   border-radius: 999px;
   border: 2px solid transparent;
   background-clip: content-box;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(94, 54, 44, 0.5);
+  background: rgba(70, 74, 110, 0.5);
   background-clip: content-box;
 }
 
@@ -266,7 +259,7 @@ iframe {
     font-weight: 700;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--color-clay-600);
+    color: var(--color-clay-700);
   }
 
   .eyebrow::before {
@@ -277,15 +270,15 @@ iframe {
     height: 2px;
     margin-right: 0.6rem;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--color-brand-500), var(--color-gold-200));
+    background: linear-gradient(90deg, var(--color-clay-500), var(--color-gold-200));
   }
 
   .gradient-text {
-    background: linear-gradient(110deg, #40251e 0%, #ff6f52 46%, #eba62f 100%);
+    background: linear-gradient(110deg, #4338ca 0%, #7c3aed 46%, #fbb024 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    color: #d63f22;
+    color: #6d28d9;
   }
 
   @supports (-webkit-background-clip: text) or (background-clip: text) {
@@ -298,7 +291,7 @@ iframe {
     width: 3.25rem;
     height: 3px;
     border-radius: 999px;
-    background: linear-gradient(90deg, var(--color-brand-500), var(--color-gold-200));
+    background: linear-gradient(90deg, var(--color-clay-500), var(--color-gold-200));
   }
 
   .text-quote {
@@ -320,7 +313,7 @@ iframe {
   }
 
   .glass-card {
-    background: linear-gradient(150deg, rgba(255, 255, 255, 0.92), rgba(255, 253, 250, 0.72));
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.92), rgba(253, 253, 255, 0.72));
     backdrop-filter: blur(16px) saturate(140%);
     -webkit-backdrop-filter: blur(16px) saturate(140%);
   }
@@ -367,7 +360,7 @@ iframe {
 
   .btn-primary {
     color: #fff !important;
-    background-image: linear-gradient(135deg, #6d4436, #4a2a22 55%, #5e362c);
+    background-image: linear-gradient(135deg, #6366f1, #4338ca 55%, #4f46e5);
     box-shadow: var(--shadow-md);
   }
 
@@ -385,7 +378,7 @@ iframe {
 
   .btn-gold {
     color: var(--color-navy-900) !important;
-    background-image: linear-gradient(135deg, var(--color-gold-200), var(--color-gold-300));
+    background-image: linear-gradient(135deg, var(--color-gold-300), var(--color-gold-400));
     box-shadow: var(--shadow-md);
   }
 
@@ -508,7 +501,7 @@ iframe {
     margin: 0;
     border: 1px solid var(--color-line-strong);
     border-radius: 999px;
-    background: #dfd6c8;
+    background: #d8d8e4;
     cursor: pointer;
     transition: background 0.25s var(--ease-out-soft), border-color 0.25s var(--ease-out-soft);
     -webkit-tap-highlight-color: transparent;
@@ -531,7 +524,7 @@ iframe {
     height: 1.375rem;
     border-radius: 999px;
     background: #fff;
-    box-shadow: 0 1px 3px rgba(46, 26, 21, 0.3);
+    box-shadow: 0 1px 3px rgba(24, 24, 48, 0.3);
     transform: translateX(0);
     transition: transform 0.25s var(--ease-out-soft);
     pointer-events: none;
@@ -569,7 +562,7 @@ iframe {
   .input-field:focus {
     border-color: var(--color-clay-400);
     background: #fff;
-    box-shadow: 0 0 0 4px rgba(94, 54, 44, 0.12);
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.14);
   }
 
   .input-field::placeholder {
@@ -584,7 +577,7 @@ iframe {
   }
 
   select.input-field {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23666460'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23626678'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.9rem center;
     background-size: 1rem;
@@ -701,18 +694,18 @@ iframe {
 /* ── Decorative utilities ── */
 .bg-grid {
   background-image:
-    linear-gradient(to right, rgba(94, 54, 44, 0.055) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(94, 54, 44, 0.055) 1px, transparent 1px);
+    linear-gradient(to right, rgba(70, 74, 110, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(70, 74, 110, 0.06) 1px, transparent 1px);
   background-size: 44px 44px;
 }
 
 .bg-dots {
-  background-image: radial-gradient(rgba(94, 54, 44, 0.14) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(70, 74, 110, 0.16) 1px, transparent 1px);
   background-size: 22px 22px;
 }
 
 .text-shadow-soft {
-  text-shadow: 0 2px 18px rgba(23, 22, 20, 0.35);
+  text-shadow: 0 2px 18px rgba(15, 16, 30, 0.4);
 }
 
 .hide-scrollbar {
