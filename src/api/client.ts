@@ -164,6 +164,24 @@ export const fetchSiteSettings = () => api.get<SiteSettings>('/settings')
 
 export const updateSiteSettings = (data: SiteSettings) => api.patch<SiteSettings>('/settings', data)
 
-export const assetUrl = (path: string) => `/api/static/${encodeURI(path)}`
+const LOCAL_ASSETS: Record<string, string> = {
+  'Vahani Alumni Association Logo.png': 'vahani-logo.png',
+  'welcome_banner.jpg': 'hero.jpg',
+  'alumni_team.jpg': 'group.jpg',
+  'FAS- Vahani Alumni Association .pptx.jpg': 'group.jpg',
+  'Princy_Pratik_Duet_song.jpg': 'programmes.jpg',
+  '4th_Alumni_Meet_Goa.jpg': 'goa.png',
+  'gallery4.jpg': 'group.jpg',
+  'gallery5.jpg': 'programmes.jpg',
+  'Alumni_Meet_Rishikesh_2024.jpg': 'mentorship.jpg',
+  'Alumni_Meet_Udaipur_2023.jpg': 'internship.jpg',
+  'Alumni_Meet_Jaipur_2022.jpg': 'conferences.jpg',
+}
+
+export const assetUrl = (path: string) => {
+  const local = LOCAL_ASSETS[path]
+  if (local) return `${import.meta.env.BASE_URL}vahani/${local}`
+  return `/api/static/${encodeURI(path)}`
+}
 
 export default api

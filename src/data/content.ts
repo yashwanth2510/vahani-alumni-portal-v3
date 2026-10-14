@@ -1,13 +1,13 @@
 export const galleryImages = [
-  { src: 'FAS- Vahani Alumni Association .pptx.jpg', caption: 'Vahani Alumni at India AI Buildathon Finals' },
-  { src: 'Princy_Pratik_Duet_song.jpg', caption: 'Duet Song- Alumni Interbatch collaboration' },
-  { src: '4th_Alumni_Meet_Goa.jpg', caption: 'Alumni Meet 2026 at Goa' },
-  { src: 'gallery4.jpg', caption: 'Alumni Association Team FY-25-26' },
-  { src: 'welcome_banner.jpg', caption: 'Alumni Drama Team' },
-  { src: 'gallery5.jpg', caption: 'Snap from Alumni Drama 2025' },
-  { src: 'Alumni_Meet_Rishikesh_2024.jpg', caption: 'Alumni Meet 2024 at Rishikesh' },
-  { src: 'Alumni_Meet_Udaipur_2023.jpg', caption: 'Alumni Meet 2023 at Udaipur' },
-  { src: 'Alumni_Meet_Jaipur_2022.jpg', caption: 'Alumni Meet 2022 at Jaipur' },
+  { src: 'FAS- Vahani Alumni Association .pptx.jpg', caption: 'Vahani Programmes' },
+  { src: 'Princy_Pratik_Duet_song.jpg', caption: 'Mentorship and Guidance' },
+  { src: '4th_Alumni_Meet_Goa.jpg', caption: 'Alumni Meet — Goa' },
+  { src: 'gallery4.jpg', caption: 'Vahani Alumni Community' },
+  { src: 'welcome_banner.jpg', caption: 'Vahani Scholarship Initiatives' },
+  { src: 'gallery5.jpg', caption: 'Scholars and Alumni Together' },
+  { src: 'Alumni_Meet_Rishikesh_2024.jpg', caption: 'Conferences and Workshops' },
+  { src: 'Alumni_Meet_Udaipur_2023.jpg', caption: 'Internship Opportunities' },
+  { src: 'Alumni_Meet_Jaipur_2022.jpg', caption: 'English and Skill Development' },
 ]
 
 export const impact360Images = [
