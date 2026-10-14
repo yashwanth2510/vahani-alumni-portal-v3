@@ -45,11 +45,11 @@ export default function AlumniMeet() {
         badge="RRR 2025"
       />
 
-      <div className="rounded-3xl p-6 sm:p-10 text-center mb-8 relative overflow-hidden bg-gradient-to-br from-brand-600 via-brand-500 to-clay-700">
+      <div className="rounded-3xl p-6 sm:p-10 text-center mb-8 relative overflow-hidden bg-gradient-to-br from-navy-800 via-navy-700 to-clay-800">
         <div className="relative">
           <h1 className="font-display text-4xl sm:text-6xl font-bold text-white mb-2">RRR</h1>
-          <p className="text-lg sm:text-2xl text-brand-100 font-light mb-2">Reconnect · Rise · Revolutionize</p>
-          <p className="text-brand-50/90">6th–7th December 2025 · Goa, India</p>
+          <p className="text-lg sm:text-2xl text-gold-200 font-light mb-2">Reconnect · Rise · Revolutionize</p>
+          <p className="text-white/80">6th–7th December 2025 · Goa, India</p>
         </div>
       </div>
 

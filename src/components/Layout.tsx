@@ -38,7 +38,7 @@ function DesktopLink({ to, label, end }: { to: string; label: string; end?: bool
       end={end}
       className={({ isActive }) =>
         `relative px-3 py-2 text-sm font-semibold no-underline transition-colors ${
-          isActive ? 'text-brand-700' : 'text-ink-500 hover:text-ink-900'
+          isActive ? 'text-clay-700' : 'text-ink-500 hover:text-ink-900'
         }`
       }
     >
@@ -46,7 +46,7 @@ function DesktopLink({ to, label, end }: { to: string; label: string; end?: bool
         <>
           {label}
           <span
-            className={`absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-brand-500 transition-opacity ${
+            className={`absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-clay-600 transition-opacity ${
               isActive ? 'opacity-100' : 'opacity-0'
             }`}
           />
@@ -65,7 +65,7 @@ function DrawerLink({ to, label, icon, end, onNavigate }: LinkItem & { end?: boo
       className={({ isActive }) =>
         `flex items-center gap-3 px-3 py-3 min-h-[48px] rounded-2xl text-sm font-semibold no-underline transition-all ${
           isActive
-            ? 'bg-brand-50 text-brand-700 border border-brand-200'
+            ? 'bg-clay-50 text-clay-700 border border-clay-200'
             : 'text-ink-600 hover:bg-cream-deep border border-transparent'
         }`
       }
@@ -160,7 +160,7 @@ export default function Layout() {
             {isAuthenticated ? (
               <>
                 <div className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-full bg-cream-deep border border-line text-sm max-w-[210px]">
-                  <span className="w-2 h-2 rounded-full bg-brand-500 shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-accent-500 shrink-0" />
                   <span className="text-ink-700 truncate font-medium">{username}</span>
                   <span className="text-accent-700 capitalize text-[10px] font-bold uppercase tracking-wide shrink-0">
                     {role}
@@ -192,7 +192,7 @@ export default function Layout() {
                   className={({ isActive }) =>
                     `flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold no-underline transition-colors ${
                       isActive
-                        ? 'bg-brand-500 text-white'
+                        ? 'bg-clay-600 text-white'
                         : 'text-ink-500 hover:bg-cream-deep hover:text-ink-800'
                     }`
                   }

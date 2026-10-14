@@ -13,7 +13,7 @@ export default function PageHeader({ title, subtitle, badge, children }: PageHea
       {badge && (
         <span className="eyebrow mb-3 block">
           <span className="inline-flex items-center gap-2">
-            <span className="h-px w-6 bg-brand-400" aria-hidden="true" />
+            <span className="h-px w-6 bg-clay-400" aria-hidden="true" />
             {badge}
           </span>
         </span>

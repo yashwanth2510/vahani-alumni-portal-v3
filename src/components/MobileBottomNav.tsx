@@ -36,7 +36,7 @@ export default function MobileBottomNav({ isAuthenticated }: { isAuthenticated: 
             end={item.end}
             className={({ isActive }) =>
               `flex flex-col items-center justify-center gap-1 flex-1 min-h-[58px] py-2 px-1 text-[10px] font-semibold no-underline transition-colors ${
-                isActive ? 'text-brand-600' : 'text-ink-400 hover:text-ink-700'
+                isActive ? 'text-clay-700' : 'text-ink-400 hover:text-ink-700'
               }`
             }
           >
@@ -44,7 +44,7 @@ export default function MobileBottomNav({ isAuthenticated }: { isAuthenticated: 
               <>
                 <span
                   className={`flex items-center justify-center w-9 h-6 rounded-full transition-colors ${
-                    isActive ? 'bg-brand-50' : ''
+                    isActive ? 'bg-clay-50' : ''
                   }`}
                 >
                   <Icon name={item.icon} size={18} />

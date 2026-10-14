@@ -58,7 +58,7 @@ export default function Home() {
           <div className="p-6 sm:p-10 md:p-14 flex flex-col justify-center">
             <span className="eyebrow mb-4">
               <span className="inline-flex items-center gap-2">
-                <span className="h-px w-6 bg-brand-400" aria-hidden="true" />
+                <span className="h-px w-6 bg-clay-400" aria-hidden="true" />
                 Vahani Scholarship Trust · Alumni
               </span>
             </span>
@@ -95,7 +95,7 @@ export default function Home() {
       <section className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8 sm:mb-12">
         {stats.map((s) => (
           <div key={s.label} className="card p-5 text-center">
-            <p className="font-display text-3xl sm:text-4xl font-semibold text-brand-600 leading-none">{s.value}</p>
+            <p className="font-display text-3xl sm:text-4xl font-semibold text-clay-600 leading-none">{s.value}</p>
             <p className="mt-2 text-xs sm:text-sm font-semibold uppercase tracking-wide text-ink-400">{s.label}</p>
           </div>
         ))}
@@ -104,7 +104,7 @@ export default function Home() {
       {/* Mission quote */}
       <section className="card p-7 sm:p-12 mb-8 sm:mb-12 bg-cream-deep/60">
         <div className="max-w-3xl mx-auto text-center">
-          <Icon name="quote" size={34} className="mx-auto text-brand-400 mb-5" />
+          <Icon name="quote" size={34} className="mx-auto text-gold-400 mb-5" />
           <p className="font-display text-xl sm:text-2xl md:text-3xl leading-snug text-ink-800 italic">
             "The Vahani Alumni Association stands as a lifelong network of changemakers, bound by shared values and
             purpose — creating impact by supporting one another and contributing meaningfully to society."
@@ -125,7 +125,7 @@ export default function Home() {
           {explore.map((e) => (
             <NavLink key={e.to} to={e.to} className="no-underline group">
               <Card hover className="h-full flex flex-col">
-                <span className="w-12 h-12 rounded-2xl bg-brand-50 text-brand-600 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:text-white transition-colors">
+                <span className="w-12 h-12 rounded-2xl bg-clay-50 text-clay-600 flex items-center justify-center mb-4 group-hover:bg-clay-600 group-hover:text-white transition-colors">
                   <Icon name={e.icon} size={22} />
                 </span>
                 <h3 className="font-display text-xl font-semibold text-ink-900 mb-1.5">{e.title}</h3>
@@ -140,17 +140,17 @@ export default function Home() {
       </section>
 
       {/* CTA band */}
-      <section className="rounded-3xl overflow-hidden bg-gradient-to-br from-brand-600 via-brand-500 to-brand-400 p-8 sm:p-12 text-center">
+      <section className="rounded-3xl overflow-hidden bg-gradient-to-br from-navy-800 via-navy-800 to-navy-700 p-8 sm:p-12 text-center">
         <h2 className="font-display text-3xl sm:text-4xl font-semibold text-white mb-3">
           Reconnect. Rise. Revolutionize.
         </h2>
-        <p className="text-white/90 max-w-2xl mx-auto mb-7 leading-relaxed">
+        <p className="text-white/80 max-w-2xl mx-auto mb-7 leading-relaxed">
           Access the alumni directory, job and internship portal, mentorship, and support fund — all in one place.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <NavLink
             to="/login"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white text-brand-700 font-semibold no-underline hover:bg-cream transition-colors min-h-[44px]"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gold-200 text-navy-900 font-semibold no-underline hover:bg-gold-100 transition-colors min-h-[44px]"
           >
             <Icon name="lock" size={16} />
             Enter Internal Portal
